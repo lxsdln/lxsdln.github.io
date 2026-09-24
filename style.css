@@ -371,6 +371,41 @@ body::after {
         padding: 80px 25px;
     }
 }
+/* ABOUT */
+
+   .about-content {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 40px;
+         align-items: center;
+      }
+
+   .about-text p {
+         margin-bottom: 15px;
+         color: #4b5563;
+   }
+
+   .about-info {
+         display: grid;
+         gap: 15px;
+      }
+
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .info-card strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #111827;
+        }
+
+        .info-card span {
+            color: #6b7280;
+        }
 /* EDUCATION */
 
     .education-card {
