@@ -371,3 +371,22 @@ body::after {
         padding: 80px 25px;
     }
 }
+/* EDUCATION */
+
+    .education-card {
+         max-width: 750px;
+         margin: auto;
+         background: white;
+         padding: 30px;
+         border-radius: 12px;
+         border: 1px solid #e5e7eb;
+         text-align: center;
+      }
+     .education-card h3 {
+         color: #111827;
+         margin-bottom: 8px;
+      }
+
+      .education-card p {
+         color: #6b7280;
+      }
